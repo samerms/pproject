@@ -9,6 +9,10 @@ import json
 import os
 import re
 from PyPDF2 import PdfReader
+from kivy.core.window import Window
+Window.clearcolor=(0,0,0,0)
+Window.size=(400,630)
+
 
 # ניהול נתוני משתמשים
 class UserManager:
